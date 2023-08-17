@@ -10,15 +10,15 @@ header {
     font-style:italic;
     font-size: larger;
     letter-spacing: 10px;
-    color:darkolivegreen;
+    color:darkblue;
     text-shadow: 2px 2px white;
-    background-color:midnightblue;
+    background-color:steelblue;
     & img {
         height: 300px;
         width: 200px;
-        border-style: groove;
-        border-width: 2px;
-        border-color:goldenrod;
+        border-style:dotted;
+        border-width: 10px;
+        border-color:darkgoldenrod;
         border-radius: 50%;
         margin-left: auto;
         margin-right: auto;
@@ -28,8 +28,14 @@ header {
 footer {
     width: 100%;
     height: 120px;
-    background-color: blue;
+    padding: 80px;
+    text-align: center;
+    word-spacing:50px;
+    letter-spacing:10px;
+    font-family:cursive;
+    font-size:45px;
     color: white;
+    background-color:steelblue;
 }
 h1 {
     text-align:center;
@@ -37,14 +43,16 @@ h1 {
 h2 {
     text-align: left;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size:x-large;
-    color:darkgoldenrod;
+    font-size:40px;
+    color:darkgray;
 }
 h3 {
-    margin-left: 300px;
+    margin-left: 200px;
     text-align: left;
-    color: lightskyblue;
+    color:teal;
     font-family:cursive;
+    font-size: 30px;
+    font-style:italic;
 }
 h4 {
  text-align: left;
@@ -58,21 +66,32 @@ img {
 
 }
 
-ul {
- padding-left: 40px;
- font-size: 20px;
-}
-
 .card {
- width: 80%;
- margin: 40px auto;
- border: 2px solid maroon;
- box-shadow: 2px 5px goldenrod;
+    width: 80%;
+    margin: 40px auto;
+    padding:20px;
+    border: 2px solid lightskyblue;
+    box-shadow: 2px 5px lightgray;
 }
 
 #subject1 {
     text-align:center;
+    color:seagreen;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
-    font-style:italic;
+    letter-spacing:5px;
+}
+
+#subject2 {
+    text-align: center;
+    color:dodgerblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#subject3 {
+    text-align:center;
+    color:salmon;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
 }
