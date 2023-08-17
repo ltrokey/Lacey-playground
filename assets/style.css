@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 400px;
+    font-family: fantasy;
+    font-style:italic;
+    font-size: larger;
+    letter-spacing: 10px;
+    color:darkolivegreen;
+    text-shadow: 2px 2px white;
+    background-color:midnightblue;
+    & img {
+        height: 300px;
+        width: 200px;
+        border-style: groove;
+        border-width: 2px;
+        border-color:goldenrod;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: blue;
+    color: white;
+}
+h1 {
+    text-align:center;
+}
+h2 {
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large;
+    color:darkgoldenrod;
+}
+h3 {
+    margin-left: 300px;
+    text-align: left;
+    color: lightskyblue;
+    font-family:cursive;
+}
+h4 {
+ text-align: left;
+}
+
+img {
+ max-width: 100%;
+ height: auto;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+ul {
+ padding-left: 40px;
+ font-size: 20px;
+}
+
+.card {
+ width: 80%;
+ margin: 40px auto;
+ border: 2px solid maroon;
+ box-shadow: 2px 5px goldenrod;
+}
+
+#subject1 {
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-style:italic;
+}
